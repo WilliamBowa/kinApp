@@ -9,6 +9,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render partial: 'layouts/main_navbar' %>
+    <div id="main-content" >
+      <div class="row">
+        <div id="" class="col-12">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+    <%= render partial: 'layouts/footer' %>
   </body>
 </html>

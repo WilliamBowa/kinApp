@@ -33,3 +33,14 @@
   margin: auto;
   color: red;
  }
+
+.main-section {
+  &__image-row {
+    margin: auto;
+
+    img {
+      // width: 40%;
+      max-height: 190px;
+    }
+  }
+}

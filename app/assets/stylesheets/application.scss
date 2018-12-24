@@ -22,25 +22,29 @@
   flex-direction: column;
  }
 
+ .navbar-section {
+   min-height: 55px;
+ }
+
  #main-content {
     max-width: 1280px;
     padding: 1.5rem;
     flex: 1 0 auto;
- }
+
+    .main-section {
+      &__image-row {
+        margin: auto;
+    
+        img {
+          // width: 40%;
+          max-height: 190px;
+        }
+      }
+    }
+  }
 
  footer {
   flex-shrink: 0;
   margin: auto;
   color: red;
  }
-
-.main-section {
-  &__image-row {
-    margin: auto;
-
-    img {
-      // width: 40%;
-      max-height: 190px;
-    }
-  }
-}

@@ -12,6 +12,7 @@
     <div id="main-content" >
       <% if user_signed_in? %>
         <%= link_to 'logout', destroy_user_session_path, method: :delete %>
+        <h1>Hi, <%= current_user.first_name %></h1>
       <% else %>
         <%= link_to 'Register', new_user_registration_path %>
         <%= link_to 'logout',  new_user_session_path %>

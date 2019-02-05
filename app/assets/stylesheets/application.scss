@@ -43,6 +43,19 @@
     }
   }
 
+  // User registratioh form style
+  .user-registration-form {
+    width: 40%;
+    margin: auto;
+    border: 1px gray solid;
+    padding: 32px;
+
+    form, input{
+      width: 100%;
+    }
+  }
+
+  //footer style
  footer {
   flex-shrink: 0;
   margin: auto;

@@ -5,9 +5,4 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   validates_presence_of :first_name, :email
-
-  # this method is throwing an error if no user - need refactoring
-  def first_name
-    self.first_name
-  end
 end

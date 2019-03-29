@@ -54,8 +54,15 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Frontend libraries
-gem 'bootstrap', '~> 4.0.0'
+gem "bootstrap", ">= 4.3.1"
 gem 'jquery-rails'
 
 # use authentification 
-gem 'devise'
+gem "devise", ">= 4.6.0"
+
+# datatables
+gem 'ajax-datatables-rails', '0.3.1'
+gem 'jquery-datatables-rails', '~> 3.4.0'
+
+# nicer select boxes
+gem 'select2-rails'

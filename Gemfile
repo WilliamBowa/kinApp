@@ -52,6 +52,9 @@ group :development do
   #debugger
   gem 'pry'
   gem 'pry-rails'
+
+  #rspec macors
+  gem 'letter_opener'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
